@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 
-.rubrik{
+.rubrik {
     font-family: Mountains of Christmas, monospace;
     font-size: 50px;
-    margin-top:70px;
+    margin-top: 70px;
 }
 
-.bakgrund{
+.bakgrund {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,31 +15,66 @@
     min-height: 350px;
 }
 
-.länkar{
-   margin: 20px;
+.länkar {
+    margin: 20px;
     width: 95%;
     display: flex;
     justify-content: space-around;
 }
 
-.bilder{
+.bilder {
     margin: 10px;
-
     border: 2px solid black;
     border-radius: 5px;
     max-height: 40px;
+    max-width: fit-content;
     padding: 5px;
+    width: 100%;
 }
 
-h1{
 
+.mellan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.vänster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webb_utveckling{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.mitten{
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+
+}
+.höger{
+    display: flex;
+    max-width: 20%;
+}
+
+.julgran{
+    width: 100%;
+}
+
+
+h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     text-align: center;
-
 }
 
-div{
+div {
     border: 3px solid #D6001C;
     border-radius: 10px;
+    margin: 10px;
 }
